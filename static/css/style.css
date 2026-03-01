@@ -1,0 +1,11 @@
+
+/* Mediamorph styles */
+body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+.navbar-brand img { border-radius: 6px; }
+.card { border: none; }
+.feature-card { cursor: pointer; transition: transform .15s ease, box-shadow .15s ease; }
+.feature-card:hover { transform: translateY(-6px); box-shadow: 0 12px 30px rgba(0,0,0,0.08); }
+.tool-box { animation: fadeIn .25s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px);} to { opacity: 1; transform: translateY(0);} }
+#imagesRow img { width: 100%; border-radius: 6px; }
+footer { box-shadow: 0 -6px 20px rgba(0,0,0,0.06); }
